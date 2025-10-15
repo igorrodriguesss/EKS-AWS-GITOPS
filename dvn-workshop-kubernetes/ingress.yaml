@@ -6,7 +6,7 @@ metadata:
     alb.ingress.kubernetes.io/load-balancer-name: devops-nuvem-alb
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
-    alb.ingress.kubernetes.io/subnets: "subnet-02b90e0f9f95fa64e,subnet-0696c34dfb5841bea"
+    alb.ingress.kubernetes.io/subnets: "subnet-0977c75cebc3d6090,subnet-02d9e3d5525bc0560"
 spec: 
   ingressClassName: alb
   rules: 

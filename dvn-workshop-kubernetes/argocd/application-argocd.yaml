@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/igorrodriguesss/EKS-AWS-GITOPS
     targetRevision: HEAD
-    path: .
+    path: dvn-workshop-kubernetes/.
   destination:
     server: https://kubernetes.default.svc
     namespace: default
